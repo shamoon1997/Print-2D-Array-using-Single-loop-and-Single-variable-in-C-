@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-	 cout<<" Elements of the array are : ";
+	 cout<<" Elements of the array are : ";       
     
-    int array[3][3];
-    for(int i=0 ; i<3 ; i++)
+    int array[3][3];                                            //declaring the array
+    for(int i=0 ; i<3 ; i++) 
     {
         for(int j=0 ; j<3 ; j++)
         {
-            array[i][j]=23 ;
+            array[i][j]=23 ;                                   //Setting the elements in 2 D array 
         }
     }
-	for(int i= 0 ; i<9 ; i++)
+	for(int i= 0 ; i<9 ; i++)				//Printing the elements of the array using single loop 
 	
     {
         cout<<array[i/3][i%3]<<" ";
