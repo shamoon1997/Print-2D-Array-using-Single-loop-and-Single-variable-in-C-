@@ -18,6 +18,6 @@ int main() {
         cout<<array[i/3][i%3]<<" ";
     }
 
-	return 0;
+	return 0;                             //end of the code
 }
 
